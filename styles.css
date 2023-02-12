@@ -1,0 +1,98 @@
+body{
+    background: cornsilk;
+    min-width: 350px;
+}
+.aboutme{
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+.aboutme img{
+    width: 200px;
+    border-radius: 30px;
+    margin: 0px;
+    padding: 0;
+}
+.aboutme .itsi{
+    width: auto;
+    margin-left: 10px;
+    
+}
+@media ( max-width:500px){
+    .aboutme {
+        display: block;
+    }
+}
+
+.contener{
+    max-width: 800px;
+    min-width: 350;
+    margin: auto;
+}
+.tablejob{
+    border: 2px solid black;
+    width: auto;
+    
+}
+.tablejob .tr{
+    border: 2px solid black;
+}
+.tablejob .td{
+    border: 2px solid black;
+}
+.card{
+    background: rgb(218, 250, 249);
+    border-radius: 10px;
+}
+p{
+    text-indent: 25px;
+    text-align: justify;
+    
+}
+
+.list{
+   padding: 0 20px;
+    
+}
+.list li{
+    color: #86899f;
+    margin-bottom: 10px;
+}
+#hobbi h1{
+    color: green;
+    font-size: 24px ;
+    font-kerning: auto;
+}
+
+.inline li{
+    
+    display: inline;
+    width: 20%;
+    border: 6 solid green;
+}
+
+.boxsert{
+   
+border: 2px solid rgb(68, 0, 255);
+width: auto;
+margin: 0;
+padding: 0;
+align-items: center;
+}
+.boxsert img {
+    width: 24%;
+   display: inline-block;
+   box-sizing:border-box ;
+  
+}
+
+.rotate90{
+    width: 25%;
+/*  
+    -webkit-transform: rotate(90deg); 
+    -moz-transform:rotate(90deg);
+    -o-transform:rotate(90deg);
+    -ms-transform:rotate(90deg);
+    transform: rotate(90deg);
+*/
+}
